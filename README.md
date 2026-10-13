@@ -35,6 +35,28 @@ with **APPROVE** or **REQUEST CHANGES**. Working code is not the bar.
 
 ## Install
 
+### As a plugin
+
+This repository is also a plugin marketplace. In Claude Code:
+
+```
+/plugin marketplace add DoubleR2000/thermo-nuclear-code-quality-review
+/plugin install thermo-nuclear-code-quality-review@thermo-nuclear
+```
+
+Plugin skills are prefixed with the plugin name, so in a session:
+
+```
+/thermo-nuclear-code-quality-review:thermo-nuclear-code-quality-review last 5 PRs to main
+```
+
+To get it on every machine at once, add the same repository on claude.ai under
+**Customize > Plugins > Add > Add marketplace** and add the plugin there. It is
+then saved to your account, and Claude Code downloads it on any machine where
+you are signed in with that account.
+
+### As a plain skill
+
 Copy `SKILL.md` into a folder named `thermo-nuclear-code-quality-review` under
 your skills directory. For Claude Code, globally:
 
@@ -48,8 +70,8 @@ Then in a session:
 /thermo-nuclear-code-quality-review last 5 PRs to main
 ```
 
-The skill is marked `disable-model-invocation: true`, so it only runs when you
-invoke it.
+Either way, the skill is marked `disable-model-invocation: true`, so it only
+runs when you invoke it.
 
 ## Credits
 

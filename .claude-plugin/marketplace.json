@@ -1,0 +1,12 @@
+{
+  "name": "thermo-nuclear",
+  "description": "Thermo-nuclear code quality review skill for Claude Code",
+  "owner": { "name": "DoubleR2000", "url": "https://github.com/DoubleR2000" },
+  "plugins": [
+    {
+      "name": "thermo-nuclear-code-quality-review",
+      "source": "./",
+      "description": "Extremely strict maintainability review of a diff, branch or set of PRs"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "thermo-nuclear-code-quality-review",
+  "description": "Extremely strict maintainability review of a diff, branch or set of PRs",
+  "author": {
+    "name": "Riccardo Ronco"
+  },
+  "repository": "https://github.com/DoubleR2000/thermo-nuclear-code-quality-review",
+  "license": "MIT",
+  "keywords": ["code-review", "maintainability", "refactoring"]
+}

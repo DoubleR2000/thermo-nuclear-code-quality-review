@@ -1,7 +1,6 @@
 ---
 name: thermo-nuclear-code-quality-review
 description: Extremely strict maintainability review of a diff, branch or set of PRs. Hunts for restructurings that delete complexity, files that grow past 1k lines, special-case branching, loose type boundaries, and tests that do not prove the change. Use for a thermonuclear review, deep code quality audit, or especially harsh maintainability review.
-disable-model-invocation: true
 ---
 
 # Thermo-Nuclear Code Quality Review
